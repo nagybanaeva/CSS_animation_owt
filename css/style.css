@@ -1,0 +1,48 @@
+body {
+    color: #444;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center-box {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+header {
+    min-height: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+    float: left;
+}
+
+#logo a {
+    display: inline-block;
+    margin: 15px 0 0 0;
+}
+
+#logo a img {
+    width: 195px;
+    height: auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    padding: 0 10px;
+}
