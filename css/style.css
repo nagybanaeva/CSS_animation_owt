@@ -435,6 +435,8 @@ h2 {
 	padding: 50px 30px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	text-align: center;
+	margin: 0 0 60px 0;
+	min-height: 308px;
 }
 
 #gift h3 {
@@ -445,6 +447,14 @@ h2 {
 
 #gift p {
 	margin: 0 0 20px 0;
+}
+
+footer {
+	background: #e2e2e2;
+	clear: both;
+	overflow: hidden;
+	padding: 20px 0;
+	text-align: center;
 }
 
 @media only screen and (max-width: 1180px){
