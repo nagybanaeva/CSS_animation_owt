@@ -181,6 +181,11 @@ h1 {
     position: absolute;
     right: 0;
     bottom: 0;
+    opacity: 0;
+    animation: 2s slideinright ease 0s forwards;
+    -webkit-animation: 2s slideinright ease 0s forwards;
+    -moz-animation: 2s slideinright ease 0s forwards;
+    -o-animation: 2s slideinright ease 0s forwards;
 }
 
 #badge {
@@ -240,6 +245,50 @@ h1 {
     }
     to {
         margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideinright {
+    from {
+        margin-right: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideinright {
+    from {
+        margin-right: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0px;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes slideinright {
+    from {
+        margin-right: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0px;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes slideinright {
+    from {
+        margin-right: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0px;
         opacity: 1;
     }
 }
