@@ -54,18 +54,33 @@ h1 {
     font-size: 40px;
     text-transform: uppercase;
     margin: 0 0 0 0;
+    opacity: 0;
+    animation: 2s slideinleft ease 0s forwards;
+    -webkit-animation: 2s slideinleft ease 0s forwards;
+    -moz-animation: 2s slideinleft ease 0s forwards;
+    -o-animation: 2s slideinleft ease 0s forwards;
 }
 
-h3 {
+#banner h3 {
     font-size: 26px;
     text-transform: uppercase;
     color: #fb6c79;
     margin: 0 0 20px 0;
     font-weight: bold;
+    opacity: 0;
+    animation: 2s slideinleft ease 0.5s forwards;
+    -webkit-animation: 2s slideinleft ease 0.5s forwards;
+    -moz-animation: 2s slideinleft ease 0.5s forwards;
+    -o-animation: 2s slideinleft ease 0.5s forwards;
 }
 
-p {
+#banner p {
     margin: 0 0 20px 0;  
+    opacity: 0;
+    animation: 2s slideinleft ease 1s forwards;
+    -webkit-animation: 2s slideinleft ease 1s forwards;
+    -moz-animation: 2s slideinleft ease 1s forwards;
+    -o-animation: 2s slideinleft ease 1s forwards;
 }
 
 .button {
@@ -80,6 +95,11 @@ p {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
+    opacity: 0;
+    animation: 2s slideinleft ease 1.5s forwards;
+    -webkit-animation: 2s slideinleft ease 1.5s forwards;
+    -moz-animation: 2s slideinleft ease 1.5s forwards;
+    -o-animation: 2s slideinleft ease 1.5s forwards;
 }
 
 
@@ -178,6 +198,50 @@ p {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes slideinleft {
+    from {
+        margin-left: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideinleft {
+    from {
+        margin-left: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes slideinleft {
+    from {
+        margin-left: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes slideinleft {
+    from {
+        margin-left: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 1180px){
