@@ -457,6 +457,21 @@ footer {
 	text-align: center;
 }
 
+@media only screen and (max-width: 768px){
+    .product-item {
+    width: 50%;
+	}
+	.one-half {
+    width: 100%;
+	}
+}
+
+@media only screen and (max-width: 360px){
+    .product-item {
+    width: 100%;
+	}
+}
+
 @media only screen and (max-width: 1180px){
     .center-box {
         width: 100%;
