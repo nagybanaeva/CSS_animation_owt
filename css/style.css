@@ -83,16 +83,102 @@ p {
 }
 
 
-#banner  {
+#banner {
     background: #f7f7f7 url(../img/flower.png) top right;
     position: relative;
+    overflow: hidden;
+}
+
+#banner-text {
+    padding: 100px 0 200px;
+}
+
+#banner-text p{
+    width: 45%;
+}
+
+#banner-images .center-box{
+    height: 100%;
 }
 
 #banner-images {
     position: absolute;
     width: 100%;
+    height: 100%;
+    top: 0;
 }
 
+#images {
+    width: 60%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+#cosmetics {
+    position: absolute;
+    width: 330px;
+    bottom: 20px;
+    left: 0;
+}
+
+#cosmetics1 {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 20%;
+}
+
+#cosmetics2 {
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+    width: 25%;
+}
+
+#cosmetics3 {
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+    width: 35%;
+}
+
+#cosmetics4 {
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    width: 35%;
+}
+
+#cosmetics5 {
+    position: absolute;
+    left: 120px;
+    bottom: 40px;
+    width: 40%;
+}
+
+#beauty {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#badge {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    background: url(../img/menta-bg.gif);
+    height: 85px;
+    line-height: 85px;
+    width: 85px;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
 
 @media only screen and (max-width: 1180px){
     .center-box {
